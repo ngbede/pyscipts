@@ -8,10 +8,7 @@ def uuid_generator():
     id_lst = []
     uuid = ""
     for i in range(0,36): # length of uuid
-        if (i == 0):
-            idx = np.random.randint(0,10)
-            id_lst.append(str(idx))
-        elif (i == 8 or i == 13 or i == 18 or i == 23):
+        if (i == 8 or i == 13 or i == 18 or i == 23):
             id_lst.append("-")
         else:
             j = np.random.randint(2,6)
