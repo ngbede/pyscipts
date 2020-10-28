@@ -30,9 +30,3 @@ def uuid_generator():
 # generate uuids with the function    
 for i in range(0,20):
     print(uuid_generator())
-
-
-
-        
-
-    
